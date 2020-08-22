@@ -7,9 +7,9 @@ or not the borrower defaulted (charge-off), I am building a model that
 can predict wether or nor a borrower will pay back their loan.
 
 ## Code and Resources Used
-###Python
+### Python
 3.7.7
-###Packages:
+### Packages:
 tensorflow 2.0 (with keras), numpy, pandas, sklearn, matplotlib, seaborn, 
 
 
@@ -74,15 +74,15 @@ categorical variables. Below are a few highlights.
 I tried four different models and evaluated them using classification loss.
 
 I tried six different models:
-* **Deep Learning Model model1: No dropout, l2 reg=0.01 on bias and weights, and 
+* **Deep Learning Model model1**: No dropout, l2 reg=0.01 on bias and weights, and 
 l2_reg=1e-5 for outouts
-* **Deep Lerning Model model2: Dropout=50%, l2 reg=0.01 on bias and weights and 
+* **Deep Lerning Model model2**: Dropout=50%, l2 reg=0.01 on bias and weights and 
 l2_reg=1e-5 for outputs
-* **Deep Lerning Model model3: Dropout=25%, l2 reg=0.001 on bias and weights and 
+* **Deep Lerning Model model3**: Dropout=25%, l2 reg=0.001 on bias and weights and 
 l2_reg=0.001 for outputs
-* **Deep Lerning Model model4: Dropout=25%, No regularization
-* **RandomForestClassifier
-* **LogisitcRegression
+* **Deep Lerning Model model4**: Dropout=25%, No regularization
+* **RandomForestClassifier**
+* **LogisitcRegression**
 
 ## Model Performance
 
