@@ -64,4 +64,6 @@ application_type,initial_list_status,purpose into categorical columns
 ## EDA
 I looked at the distributions the value counts for the various
 categorical variables. Below are a few highlights.
-correlation.png
+
+<img src="datacorrelation.png" alt="Markdown correlation icon"
+style="float: left; margin_right: 10px; />
