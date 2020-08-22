@@ -68,3 +68,24 @@ categorical variables. Below are a few highlights.
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/correlation.png "Correlation")
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade.png "Correlation")
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade2.png "Correlation")
+
+## Model Building
+
+I tried four different models and evaluated them using classification loss.
+
+I tried six different models:
+* **Deep Learning Model model1: No dropout, l2 reg=0.01 on bias and weights, and 
+l2_reg=1e-5 for outouts
+* **Deep Lerning Model model2: Dropout=50%, l2 reg=0.01 on bias and weights and 
+l2_reg=1e-5 for outputs
+* **Deep Lerning Model model3: Dropout=25%, l2 reg=0.001 on bias and weights and 
+l2_reg=0.001 for outputs
+* **Deep Lerning Model model4: Dropout=25%, No regularization
+* **RandomForestClassifier
+* **LogisitcRegression
+
+## Model Performance
+
+Model4 (Deep learning model) with 25% dropout and no regularization, and 4 
+hidden layers performed the best (For val_loss, classification report, and confusion_matrix).
+
