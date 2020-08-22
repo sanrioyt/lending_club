@@ -66,3 +66,5 @@ I looked at the distributions the value counts for the various
 categorical variables. Below are a few highlights.
 
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/correlation.png "Correlation")
+![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade.png "Correlation")
+![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade2.png "Correlation")
