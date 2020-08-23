@@ -71,7 +71,9 @@ categorical variables. Below are a few highlights.
 
 ## Model Building
 
-I tried four different models and evaluated them using classification loss.
+I tried six different models and evaluated them using different metrics. 
+I used classification_report and confusion_matrix for all of them,
+and wanted to diminish val_loss for all the deep learning models.
 
 I tried six different models:
 * **Deep Learning Model model1**: No dropout, l2 reg=0.01 on bias and weights, and 
