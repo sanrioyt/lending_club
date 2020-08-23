@@ -65,8 +65,7 @@ application_type,initial_list_status,purpose into categorical columns
 I looked at the distributions the value counts for the various
 categorical variables. Below are a few highlights.
 
-![alt text](https://github.com/sanrioyt/lending_club/blob/master/correlation.png "Correlation")
-![alt text](https://github.com/sanrioyt/lending_club/blob/master/correlation.png  "Salary by Position")
+![alt text](https://github.com/sanrioyt/lending_club/blob/master/correlation.png "Check")
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade.png "Correlation")
 ![alt text](https://github.com/sanrioyt/lending_club/blob/master/sub_grade2.png "Correlation")
 
